@@ -25,12 +25,8 @@
 	  font-style: arial bold;
       font-size: 22px;
 }
-.andrew{
-	  background-image: url("https://github.com/andrewhooge/andrewhooge.github.io/blob/master/Assets/andrew_head_wall.jpg?raw=true);
-	  position: relative;
-	  top: 0px;
-	  left: 400px;
-	  border-radius: 40px;
+.andrew {
+	  background-image: url("http://andrewhooge.github.io/Assets/andrew_head_wall.jpg);
 	  background-repeat: no-repeat;
 }
 	input {
