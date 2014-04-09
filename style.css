@@ -23,13 +23,11 @@
     p {
 	  font-style: arial bold;
       font-size: 22px;
-.andrew {
+.andrew{
 	  background-image: url("http://andrewhooge.github.io/Assets/andrew_head_wall.jpg");
 	  position: relative;
 	  margin: 100px 0 0 0;
 	}
-
-    }
 	input {
       border: 0;
       padding: 10px;
