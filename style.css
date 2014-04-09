@@ -3,6 +3,7 @@
       background: url("http://andrewhooge.github.io/Assets/running-onsand.jpg");
       background-size: cover;
       background-position: 0 auto;
+	  border-radius: 40px;
       color: white;
       font-family: helvetica;
 		}
@@ -14,7 +15,7 @@
 		margin: auto;
 }
     p {
-	  font-style: arial;
+	  font-style: arial bold;
       font-size: 22px;
     }
     input {
