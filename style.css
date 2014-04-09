@@ -13,6 +13,7 @@
 		font-size: 100px;
 		color: #aaaaaa;
 		margin: auto;
+}
 	div {
 		height: 200px;
 		background-size: 300px;
@@ -23,6 +24,7 @@
     p {
 	  font-style: arial bold;
       font-size: 22px;
+}
 .andrew{
 	  background-image: url("https://github.com/andrewhooge/andrewhooge.github.io/blob/master/Assets/andrew_head_wall.jpg?raw=true");
 }
