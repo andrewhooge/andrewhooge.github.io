@@ -21,6 +21,10 @@
 		border-radius: 12px;
 		background-repeat: no-repeat;
 	}
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+	}
     p {
 	  font-style: arial bold;
       font-size: 22px;
