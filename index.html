@@ -53,6 +53,24 @@
   <p>Andrew Hooge</p>
   <input type="email" placeholder="Your email">
   <input type="submit">
+<div class="gallery-wrap">
+  <div class="gallery clearfix">
+    <div class="gallery__item">
+      <img src="images/image1.jpg" class="gallery__img" alt="" />
+    </div>
+     <div class="gallery__item">
+      <img src="images/image2.jpg" class="gallery__img" alt="" />
+    </div>
+  </div>
+  <div class="gallery__controls clearfix">
+    <div href="#" class="gallery__controls-prev">
+      <img src="images/prev.png" alt="" />
+    </div>
+    <div href="#" class="gallery__controls-next">
+      <img src="images/next.png" alt="" />
+    </div>
+  </div>
+</div>
 <script>
 $(window).load(function(){
 $(".gallery__link").fancybox({
