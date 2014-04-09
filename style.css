@@ -15,7 +15,7 @@
 		margin: auto;
 }
 	img {
-		height: 200px;
+		float: right;
 		background-size: 300px;
 		position: relative;
 		right:100px;
@@ -27,9 +27,6 @@
 	  font-style: arial bold;
       font-size: 22px;
 }
-.andrew{
-	  background-image: url("https://github.com/andrewhooge/andrewhooge.github.io/blob/master/Assets/andrew-nikki.jpg?raw=true");
-	}
 	input {
 	  border: 0;
 	  padding: 10px;
