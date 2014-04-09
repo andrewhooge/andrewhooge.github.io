@@ -25,11 +25,12 @@
       font-size: 22px;
 .andrew {
 	  background-image: url("http://andrewhooge.github.io/Assets/andrew_head_wall.jpg");
-	  background-position: top-right;
+	  position: relative;
+	  margin: 100px 0 0 0;
 	}
 
     }
-    input {
+	input {
       border: 0;
       padding: 10px;
       font-size: 18px;
