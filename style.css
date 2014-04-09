@@ -14,14 +14,15 @@
 		color: #aaaaaa;
 		margin: auto;
 }
-	div {
+	img {
 		height: 200px;
 		background-size: 300px;
 		position: relative;
-		margin: 40px 0 0 0;
+		left:0px;
+		top:0px;
 		border-radius: 12px;
 		background-repeat: no-repeat;
-}
+	}
     p {
 	  font-style: arial bold;
       font-size: 22px;
