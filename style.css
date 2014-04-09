@@ -5,12 +5,6 @@
       background-position: relative;
       color: white;
       font-family: helvetica;
-    	}
-	div {
-		height: 250px;
-		background-size: 350px;
-		position: 0 auto;
-		margin: 75px;
 		}
 	h1 {
 		font-family: 'Copperplate Gothic Bold';
@@ -18,15 +12,10 @@
 		font-size: 100px;
 		color: #aaaaaa;
 		margin: auto;
-		}
+}
     p {
 	  font-style: arial;
       font-size: 22px;
-}
-    input {
-      border: 0;
-      padding: 10px;
-      font-size: 18px;
     }
     input[type="submit"] {
       background: red;
