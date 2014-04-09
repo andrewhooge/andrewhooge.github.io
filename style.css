@@ -14,8 +14,7 @@
 		color: #aaaaaa;
 		margin: auto;
 }
-	img {
-		float: right;
+	div {
 		background-size: 300px;
 		position: relative;
 		top:0px;
@@ -25,6 +24,9 @@
     p {
 	  font-style: arial bold;
       font-size: 22px;
+.andrew{
+	  background-image: url("http://andrewhooge.github.io/Assets/andrew-nikki.jpg");
+	}
 }
 	input {
 	  border: 0;
