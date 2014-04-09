@@ -2,7 +2,7 @@
       text-align: center;
       background: url("http://andrewhooge.github.io/Assets/running-onsand.jpg");
       background-size: cover;
-      background-position: relative;
+      background-position: 0 auto;
       color: white;
       font-family: helvetica;
 		}
