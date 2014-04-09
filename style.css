@@ -25,10 +25,11 @@
     }
 .profile {
 	background-image: url("http://andrewhooge.github.io/Assets/andrew-ball.jpg");
+	position: relative;
 	top: 50px;
 	left: 400px;
-	border-radius: 40px 40px
-	opacity: 50%;
+	border-radius: 40px 40px 40px 40px
+	color-opacity: 50%;
 	background-repeat: no-repeat;
 }
     input {
