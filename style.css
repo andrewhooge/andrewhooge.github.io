@@ -16,8 +16,8 @@
 	div {
 		height: 200px;
 		background-size: 300px;
-		position: relative;
-		margin: 0px 0 0 0;
+		position: top-left;
+		margin: 0 0 0 0;
 		border-radius: 12px;
 }
     p {
