@@ -2,15 +2,14 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "~>3.3.3"
-
-# Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
-
-# For faster file watcher updates on Windows:
-gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
+gem "middleman", "~> 3.3.3"
+gem "middleman-blog", "~> 3.5.3"
 
 gem 'foundation-rails', :require => false
+gem 'jquery-rails', :require => false
 
-# Windows does not come with time zone data
-gem "tzinfo-data", platforms: [:mswin, :mingw]
+gem "middleman-deploy"
+
+
+# For feed.xml.builder
+gem "builder", "~> 3.0"
