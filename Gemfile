@@ -10,6 +10,5 @@ gem 'jquery-rails', :require => false
 
 gem "middleman-deploy"
 
-
 # For feed.xml.builder
 gem "builder", "~> 3.0"

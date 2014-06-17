@@ -10,9 +10,9 @@ activate :blog do |blog|
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
-  # blog.sources = "{year}-{month}-{day}-{title}.html"
+  blog.sources = "{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
-  # blog.layout = "layout"
+  blog.layout = "layout"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = "{year}.html"
@@ -101,5 +101,15 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 
-rails g foundation:install
+
+end
+
+activate :deploy do |deploy|
+  deploy.method = :git
+  # Optional Settings
+  # deploy.remote   = "custom-remote" # remote name or git url, default: origin
+  deploy.branch   = "master" # default: gh-pages
+  # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
+  # deploy.commit_message = "custom-message"      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
+  deploy.build_before = true # default: false
 end
